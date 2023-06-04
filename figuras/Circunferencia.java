@@ -1,10 +1,12 @@
 package figuras;
+
 /**
  * La clase Circunferencia representa una circunferencia con un radio y un color.
  */
 public class Circunferencia {
     private double radio;
     private String color;
+
     /**
      * Crea una nueva instancia de la clase Circunferencia con el radio especificado.
      *
@@ -13,6 +15,7 @@ public class Circunferencia {
     public Circunferencia(double radio) {
         this.radio = radio;
     }
+
     /**
      * Imprime la información de la circunferencia, incluyendo el diámetro, el color y el área.
      */
@@ -29,7 +32,7 @@ public class Circunferencia {
      * Compara si la circunferencia actual es igual a otra circunferencia especificada.
      *
      * @param considerarDecimales indica si se deben considerar los decimales en la comparación
-     * @param otro la otra circunferencia a comparar
+     * @param otro                la otra circunferencia a comparar
      * @return true si las circunferencias son iguales, false en caso contrario
      */
     public boolean esIgual(boolean considerarDecimales, Circunferencia otro) {
